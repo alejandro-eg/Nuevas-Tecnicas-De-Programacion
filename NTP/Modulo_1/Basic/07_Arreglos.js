@@ -26,3 +26,21 @@ nd.push(1012)
 //MAP
 var pares = [2, 4, 6, 8, 10]
 //console.log(pares.map((elemento) => elemento +1));
+
+/*-----Consulta Funciones Arreglos-----*/
+
+// FOREACH
+numeros.forEach(item =>{
+//console.log(item);
+});
+//INCLUDES
+//console.log(numeros.includes(7));
+//FILTER
+var filtro = numeros.filter(n => n>1);
+//console.log(filtro);
+//REDUCE 
+var acum = numeros.reduce((total,value)=>total+value,0);
+//console.log(acum);
+//EVERY
+var menSiete=numeros=numeros.every(n => n<7);
+console.log(menSiete);
