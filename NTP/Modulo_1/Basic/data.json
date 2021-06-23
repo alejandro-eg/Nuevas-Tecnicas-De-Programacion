@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "first_name": "Anabella",
+        "last_name": "Crosbie",
+        "email": "acrosbie0@npr.org",
+        "gender": "Polygender",
+        "ip_address": "203.70.62.216"
+    },
+    {
+        "id": 2,
+        "first_name": "Alana",
+        "last_name": "Gerb",
+        "email": "agerb1@nifty.com",
+        "gender": "Female",
+        "ip_address": "232.113.246.113"
+    },
+    {
+        "id": 3,
+        "first_name": "Bernadine",
+        "last_name": "Methven",
+        "email": "bmethven2@yelp.com",
+        "gender": "Agender",
+        "ip_address": "75.171.110.228"
+    },
+    {
+        "id": 4,
+        "first_name": "Keenan",
+        "last_name": "Melladew",
+        "email": "kmelladew3@spotify.com",
+        "gender": "Polygender",
+        "ip_address": "28.132.146.155"
+    },
+    {
+        "id": 5,
+        "first_name": "Melessa",
+        "last_name": "Blincow",
+        "email": "mblincow4@yelp.com",
+        "gender": "Genderfluid",
+        "ip_address": "53.153.76.117"
+    },
+    {
+        "id": 6,
+        "first_name": "Christel",
+        "last_name": "Barlie",
+        "email": "cbarlie5@washingtonpost.com",
+        "gender": "Agender",
+        "ip_address": "7.49.211.30"
+    },
+    {
+        "id": 7,
+        "first_name": "Joe",
+        "last_name": "Teek",
+        "email": "jteek6@creativecommons.org",
+        "gender": "Female",
+        "ip_address": "172.182.161.169"
+    },
+    {
+        "id": 8,
+        "first_name": "Napoleon",
+        "last_name": "Featherstonhaugh",
+        "email": "nfeatherstonhaugh7@blogspot.com",
+        "gender": "Non-binary",
+        "ip_address": "224.141.48.249"
+    },
+    {
+        "id": 9,
+        "first_name": "Eduardo",
+        "last_name": "Hairsnape",
+        "email": "ehairsnape8@cdbaby.com",
+        "gender": "Genderqueer",
+        "ip_address": "203.56.29.168"
+    },
+    {
+        "id": 10,
+        "first_name": "Natty",
+        "last_name": "Shillan",
+        "email": "nshillan9@rambler.ru",
+        "gender": "Polygender",
+        "ip_address": "114.34.43.255"
+    }
+]
