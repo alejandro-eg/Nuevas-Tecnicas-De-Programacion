@@ -71,12 +71,12 @@ class Persona{
     }
 }
 
-var datos = new Persona('Alejandro', 'Egas', 'alejoegas@outlook.com', 22,'Masculino');
+var datos = new Persona("Alejandro", "Egas", "alejoegas@outlook.com", 22,"Masculino");
 console.log(datos);
 //getter
 console.log(datos.nombre);
 //setter
-datos.nombre = 'Alejandro';
+datos.nombre = "Alejandro";
 //getter
 console.log(datos.nombre);
 
@@ -102,3 +102,14 @@ class Punto {
   console.log (Punto.distancia(p1, p2));
 
   //3. Construir clase Persona y estudiante, extender Estudiante con Persona
+class Estudiante extends Persona{
+    getnombre (){
+        console.log("Me gusta que me llamen por mi nombre: "+this._nombre );
+    }
+    getapellido (){
+        console.log("Me gusta que me llamen por mi apellido: "+this._apellido );
+    }
+}
+var infEstudiante = new Estudiante("Emilio","Cerón");
+infEstudiante.getnombre();
+infEstudiante.getapellido();
