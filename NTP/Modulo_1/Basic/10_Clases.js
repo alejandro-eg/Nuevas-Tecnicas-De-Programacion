@@ -22,9 +22,6 @@ class Rectangulo2{
 }
     var rectangulo2=new Rectangulo2(6, 3)
     console.log(rectangulo2.calcularArea())
-
-
-// Construir clase Persona y estudiante, extender Estudiante con Persona>
 /*
 DEBER
 */
@@ -99,7 +96,9 @@ class Punto {
     }
   }
   
-  const p1 = new Punto(5, 5);
-  const p2 = new Punto(10, 10);
+  const p1 = new Punto(2, 2);
+  const p2 = new Punto(7, 7);
   
   console.log (Punto.distancia(p1, p2));
+
+  //3. Construir clase Persona y estudiante, extender Estudiante con Persona
