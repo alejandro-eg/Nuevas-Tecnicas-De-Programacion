@@ -1,40 +1,22 @@
-const express = require("express");
+const { Router } = require('express');
+const express = require('express');
 //genero una aplicacion express
-const app = express();
-//EndPoint
-app.get("/", (req, res) => {
-  res.send("Hola mundo con ExpressJSS");
-});
-app.get("/saludo", (req, res) => {
-  //req.query
-  //console.log(req.query);
-  //Obtener la query del objeto request
-  const {
-    query: { nombre, apellido },
-  } = req;
-  //const nombre = req.query.nombre
-  //const apellido= req.query.apellido
-  /* const {query}=req;
-  res.json({
-    saludo: `Hola soy ${query. nombre} ${query.apellido}`,
-  });
-});
+
+const app = express()
+// routes
+const { RouterIndex } = require('./routes/index')
+//app.use("/", RouterIndex)
+// app.use("/user", RouterIndex)
+app.use("/user/data", RouterIndex)
+
+/*
+        "/"+"/"="//" => "/"
+        "/"+"saludo" = "//Saludo" => "/saludo"
+        "/"+ "'/saludo/:nombre'" = //saludo/:nombre => "/saludo/:nombre"
+        "/user" + "/saludo" = "/user/saludo"
+        "user/data" + "/saludo" = "/user/data/saludo"
 */
-  res.json({
-    saludo: `Hola soy ${nombre} ${apellido}`,
-  });
-});
-app.get("/saludo/:nombre", (req, res) => {
-    const {params}=req;
-  /*const {
-    params: { nombre },
-  } = req;
-  //console.log(req.params);
-  //const nombre=req.params.nombre*/
-  res.json({
-    nombre: params.nombre,
-  });
-});
-app.listen(3000, () => {
-  console.log("Servidor escuchado en http://localhost:3000");
-});
+
+app.listen(3000, ()=>{
+    console.log("Servidor escuchando en htpp://localhost:3000");
+})
