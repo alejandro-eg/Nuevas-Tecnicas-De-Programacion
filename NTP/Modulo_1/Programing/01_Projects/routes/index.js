@@ -1,12 +1,8 @@
-//traemos el paquete
-
+//Traer el paquete
 const { Router } = require('express');
-
-//inicializamos el router
-
+//inicializar el router
 const router = Router()
-
-//creacion de los endpoint
+//Crear los Endpoint
 router
     .get("/",(req, res) => {
     res.send("Hola mundo con ExpressJS");
@@ -25,7 +21,7 @@ router
             nombre: params.nombre,
         })
     })
-//exportamos la rutas
+//Exportar las Rutas
 module.exports.RouterIndex = router
 
 // module = {
